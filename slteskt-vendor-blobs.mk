@@ -62,7 +62,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/slteskt/proprietary/etc/firmware/florida-dsp4-rx-anc-wb.wmfw:system/etc/firmware/florida-dsp4-rx-anc-wb.wmfw \
     vendor/samsung/slteskt/proprietary/lib/libmysound.so:system/lib/libmysound.so \
     vendor/samsung/slteskt/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
+    vendor/samsung/slteskt/proprietary/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
     vendor/samsung/slteskt/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
+    vendor/samsung/slteskt/proprietary/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so \
+    vendor/samsung/slteskt/proprietary/lib/libsoundalive.so:system/lib/libsoundalive.so \
+    vendor/samsung/slteskt/proprietary/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
     vendor/samsung/slteskt/proprietary/vendor/lib/liblvverx_3.21.15.so:system/vendor/lib/liblvverx_3.21.15.so \
     vendor/samsung/slteskt/proprietary/vendor/lib/liblvvetx_3.21.15.so:system/vendor/lib/liblvvetx_3.21.15.so \
     vendor/samsung/slteskt/proprietary/vendor/firmware/seiren_fw_dram.bin:system/vendor/firmware/seiren_fw_dram.bin \
@@ -77,7 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/slteskt/proprietary/vendor/firmware/setfile_8b1.bin:system/vendor/firmware/setfile_8b1.bin \
     vendor/samsung/slteskt/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/slteskt/proprietary/bin/gps.cer:system/bin/gps.cer \
-    vendor/samsung/slteskt/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/slteskt/proprietary/lib/hw/gps.universal5430.so:system/lib/hw/gps.universal5430.so \
     vendor/samsung/slteskt/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/slteskt/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc \
     vendor/samsung/slteskt/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
@@ -93,10 +97,29 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/slteskt/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/slteskt/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/slteskt/proprietary/bin/lpm:system/bin/lpm \
-    vendor/samsung/slteskt/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
+    vendor/samsung/slteskt/proprietary/lib/libmaet.so:system/lib/libmaet.so \
+    vendor/samsung/slteskt/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
+    vendor/samsung/slteskt/proprietary/media/battery_cover.spi:system/media/battery_cover.spi \
+    vendor/samsung/slteskt/proprietary/media/battery_error.spi:system/media/battery_error.spi \
+    vendor/samsung/slteskt/proprietary/media/battery_low.spi:system/media/battery_low.spi \
+    vendor/samsung/slteskt/proprietary/media/battery_temperature_error.spi:system/media/battery_temperature_error.spi \
+    vendor/samsung/slteskt/proprietary/media/battery_temperature_limit.spi:system/media/battery_temperature_limit.spi \
+    vendor/samsung/slteskt/proprietary/media/dock_error.spi:system/media/dock_error.spi \
+    vendor/samsung/slteskt/proprietary/media/incompatible_charger.spi:system/media/incompatible_charger.spi \
+    vendor/samsung/slteskt/proprietary/media/lcd_density.txt:system/media/lcd_density.txt \
+    vendor/samsung/slteskt/proprietary/media/particle_intro.spi:system/media/particle_intro.spi \
+    vendor/samsung/slteskt/proprietary/media/particle_loop.spi:system/media/particle_loop.spi \
+    vendor/samsung/slteskt/proprietary/media/percentage.spi:system/media/percentage.spi \
+    vendor/samsung/slteskt/proprietary/media/wave_loop.spi:system/media/wave_loop.spi \
+    vendor/samsung/slteskt/proprietary/media/wireless_left.spi:system/media/wireless_left.spi \
+    vendor/samsung/slteskt/proprietary/media/wireless_right.spi:system/media/wireless_right.spi \
     vendor/samsung/slteskt/proprietary/bin/exyrngd:system/bin/exyrngd \
     vendor/samsung/slteskt/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/slteskt/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/slteskt/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/samsung/slteskt/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/slteskt/proprietary/bin/argosd:system/bin/argosd \
+    vendor/samsung/slteskt/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/slteskt/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
     vendor/samsung/slteskt/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
     vendor/samsung/slteskt/proprietary/app/mcRegistry/02010000080300030000000000000000.tlbin:system/app/mcRegistry/02010000080300030000000000000000.tlbin \
