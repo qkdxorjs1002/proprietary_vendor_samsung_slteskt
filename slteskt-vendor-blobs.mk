@@ -96,23 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/slteskt/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/slteskt/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/slteskt/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/samsung/slteskt/proprietary/bin/lpm:system/bin/lpm \
-    vendor/samsung/slteskt/proprietary/lib/libmaet.so:system/lib/libmaet.so \
-    vendor/samsung/slteskt/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
-    vendor/samsung/slteskt/proprietary/media/battery_cover.spi:system/media/battery_cover.spi \
-    vendor/samsung/slteskt/proprietary/media/battery_error.spi:system/media/battery_error.spi \
-    vendor/samsung/slteskt/proprietary/media/battery_low.spi:system/media/battery_low.spi \
-    vendor/samsung/slteskt/proprietary/media/battery_temperature_error.spi:system/media/battery_temperature_error.spi \
-    vendor/samsung/slteskt/proprietary/media/battery_temperature_limit.spi:system/media/battery_temperature_limit.spi \
-    vendor/samsung/slteskt/proprietary/media/dock_error.spi:system/media/dock_error.spi \
-    vendor/samsung/slteskt/proprietary/media/incompatible_charger.spi:system/media/incompatible_charger.spi \
-    vendor/samsung/slteskt/proprietary/media/lcd_density.txt:system/media/lcd_density.txt \
-    vendor/samsung/slteskt/proprietary/media/particle_intro.spi:system/media/particle_intro.spi \
-    vendor/samsung/slteskt/proprietary/media/particle_loop.spi:system/media/particle_loop.spi \
-    vendor/samsung/slteskt/proprietary/media/percentage.spi:system/media/percentage.spi \
-    vendor/samsung/slteskt/proprietary/media/wave_loop.spi:system/media/wave_loop.spi \
-    vendor/samsung/slteskt/proprietary/media/wireless_left.spi:system/media/wireless_left.spi \
-    vendor/samsung/slteskt/proprietary/media/wireless_right.spi:system/media/wireless_right.spi \
     vendor/samsung/slteskt/proprietary/bin/exyrngd:system/bin/exyrngd \
     vendor/samsung/slteskt/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/slteskt/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
