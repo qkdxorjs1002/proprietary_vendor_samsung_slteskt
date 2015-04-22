@@ -118,9 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/slteskt/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/slteskt/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/slteskt/proprietary/bin/argosd:system/bin/argosd \
-    vendor/samsung/slteskt/proprietary/bin/debug_interface_proxy:system/bin/debug_interface_proxy \
     vendor/samsung/slteskt/proprietary/bin/rild:system/bin/rild \
-    vendor/samsung/slteskt/proprietary/bin/mmd:system/bin/mmd \
     vendor/samsung/slteskt/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
     vendor/samsung/slteskt/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
     vendor/samsung/slteskt/proprietary/app/mcRegistry/02010000080300030000000000000000.tlbin:system/app/mcRegistry/02010000080300030000000000000000.tlbin \
