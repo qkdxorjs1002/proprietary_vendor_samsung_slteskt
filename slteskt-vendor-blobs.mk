@@ -34,8 +34,22 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/slteskt/proprietary/etc/wifi/nvram_net.txt_semco:system/etc/wifi/nvram_net.txt_semco \
     vendor/samsung/slteskt/proprietary/etc/wifi/nvram_net.txt_semco3rd:system/etc/wifi/nvram_net.txt_semco3rd \
     vendor/samsung/slteskt/proprietary/etc/wifi/nvram_net.txt_wisol:system/etc/wifi/nvram_net.txt_wisol \
+    vendor/samsung/slteskt/proprietary/etc/wifi/olsrd.conf:system/etc/wifi/olsrd.conf \
+    vendor/samsung/slteskt/proprietary/bin/olsrd:system/bin/olsrd \
+    vendor/samsung/slteskt/proprietary/bin/mfgloader:system/bin/mfgloader \
+    vendor/samsung/slteskt/proprietary/bin/wlandutservice:system/bin/wlandutservice \
     vendor/samsung/slteskt/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
     vendor/samsung/slteskt/proprietary/vendor/firmware/hevc_fw.bin:system/vendor/firmware/hevc_fw.bin \
+    vendor/samsung/slteskt/proprietary/lib/omx/libOMX.Exynos.AAC.Decoder.so:system/lib/omx/libOMX.Exynos.AAC.Decoder.so \
+    vendor/samsung/slteskt/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/samsung/slteskt/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    vendor/samsung/slteskt/proprietary/lib/omx/libOMX.Exynos.FLAC.Decoder.so:system/lib/omx/libOMX.Exynos.FLAC.Decoder.so \
+    vendor/samsung/slteskt/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
+    vendor/samsung/slteskt/proprietary/lib/omx/libOMX.Exynos.MP3.Decoder.so:system/lib/omx/libOMX.Exynos.MP3.Decoder.so \
+    vendor/samsung/slteskt/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    vendor/samsung/slteskt/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    vendor/samsung/slteskt/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+    vendor/samsung/slteskt/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
     vendor/samsung/slteskt/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/slteskt/proprietary/vendor/firmware/fimc_is_fw2_2p2_12m.bin:system/vendor/firmware/fimc_is_fw2_2p2_12m.bin \
     vendor/samsung/slteskt/proprietary/vendor/firmware/companion_2p2_12m_master_setfile.bin:system/vendor/firmware/companion_2p2_12m_master_setfile.bin \
@@ -97,12 +111,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/slteskt/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/slteskt/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/slteskt/proprietary/bin/exyrngd:system/bin/exyrngd \
+    vendor/samsung/slteskt/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/slteskt/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/slteskt/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/slteskt/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/slteskt/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/slteskt/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/slteskt/proprietary/bin/argosd:system/bin/argosd \
+    vendor/samsung/slteskt/proprietary/bin/debug_interface_proxy:system/bin/debug_interface_proxy \
     vendor/samsung/slteskt/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/slteskt/proprietary/bin/mmd:system/bin/mmd \
     vendor/samsung/slteskt/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
     vendor/samsung/slteskt/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
     vendor/samsung/slteskt/proprietary/app/mcRegistry/02010000080300030000000000000000.tlbin:system/app/mcRegistry/02010000080300030000000000000000.tlbin \
